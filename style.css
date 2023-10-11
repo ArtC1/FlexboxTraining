@@ -1,0 +1,98 @@
+body {
+    background-color: black;
+}
+
+img {
+    height:200px;
+    width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 10px dashed rgb(236, 238, 236);
+}
+ .main-container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+ }
+
+ .box {
+    background-color: aquamarine;
+    text-align: center;
+    flex: 1;
+    max-width: 400px;
+    padding: 5px;
+    border-radius: 10%;
+    border: 5px solid white;
+    font-family: 'Young Serif', serif;
+ }
+
+ .button-link {
+    color: white;
+    font-weight: bold;
+    border-radius: 10%;
+    font-size: 20px;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+ }
+
+ .one {
+    background-color: rgb(238, 110, 63);
+ }
+
+ .B1 {
+    background-color: rgb(179, 48, 0);
+ }
+
+ .H1 {
+    background-color: rgb(179, 48, 0);
+ }
+
+ .two {
+    background-color: rgb(167, 4, 4);
+ }
+
+ .B2 {
+    background-color: rgb(235, 0, 0);
+ }
+
+ .H2 {
+    background-color: rgb(235, 0, 0);
+ }
+
+ .three {
+    background-color: rgb(185, 185, 4);
+ }
+
+ .B3 {
+    background-color: rgb(73, 128, 0);
+ }
+
+ .H3 {
+    background-color: rgb(73, 128, 0);
+ }
+
+ul {
+    list-style: none;
+}
+
+.content {
+    padding: 0;
+    margin: 0;
+}
+
+.author {
+    font-weight: bold;
+    font-size: 1.05rem;
+} 
+
+@media (max-width: 1200px) {
+    .main-container {
+        flex-direction: column;
+        height: 100%;
+    }
+}
+
+
